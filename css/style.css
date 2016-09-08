@@ -1,0 +1,351 @@
+
+
+
+
+/**********----------the-fonts----------************/
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('fonts/opensans-bold-webfont.eot');
+    src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/opensans-bold-webfont.woff') format('woff'),
+         url('fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+   font-weight: 400;
+    font-style: normal
+
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('fonts/opensans-bolditalic-webfont.eot');
+    src: url('fonts/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/opensans-bolditalic-webfont.woff') format('woff'),
+         url('fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+    font-weight:400;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('fonts/opensans-light-webfont.eot');
+    src: url('fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('fonts/opensans-light-webfont.woff') format('woff'),
+         url('fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight:700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Open_Sans';
+    src: url('fonts/opensans-lightitalic-webfont.eot');
+    src: url('fonts/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/opensans-lightitalic-webfont.woff') format('woff'),
+         url('fonts/opensans-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+/* ------------the global attr -----------------*/
+
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+img{
+
+  border: 0;
+  height: auto;
+   max-width: 100%;
+}
+
+
+body{
+  background-color: #000;
+line-height: 1;
+color: #fff;
+font-family: 'Open_Sans';
+}
+.main-contain {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+}
+
+img{
+  width: 50%;
+  height: 50%;
+}
+  body,html
+  {
+     font-size:16px;
+
+}
+.the-header{
+      align-items: center;
+      width: 100%;
+}
+.logo{
+      flex: 0 1 25%;
+      margin:1rem ;
+      text-align: left;
+}
+
+footer,
+header{
+
+  display:block;
+}
+
+  *{
+
+  box-sizing:border-box;
+  outline:none;
+}
+
+    img
+  {
+    border:0;
+  height:auto;
+  max-width:100%;
+   size: 100%;
+}
+  
+
+.article{ 
+flex-wrap:wrap;
+  display:block;
+  height:420px;
+  background-position:50%;
+  background-size:cover;
+}
+
+input{
+  border:none;
+  border-bottom:1px solid #dbdbdb;
+  font-family: 'Open_Sans';
+
+}
+input:focus{
+  border-bottom-color:#fff;
+}
+
+main-article{
+flex: 0 1 50%;
+flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.story-meta {
+    background: rgba(0,0,0,.6);
+    bottom: 0;
+    color: #fff;
+  
+   
+}
+.story-meta {
+    text-decoration-style: none;
+}
+
+   .the-news ul li{
+   list-style: none;
+  flex:0 1 100%;
+  max-width:100%;
+  height: 400px;
+}
+
+
+.the-news ul{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+
+
+@media(min-width:600px){
+
+
+  body,
+  button,
+  input{
+  font-size:9px;
+  font-size:0.9rem;
+   font-family: 'Open_Sans';
+}
+.the-header{
+  align-items:center;
+ 
+
+  width:100%;
+}
+.logo,
+.searching{
+  max-width:250px;
+}
+.logo {
+    flex: 0 1 25%;
+    margin: 0 1rem 0 0;
+    text-align: left;}
+.searching{
+  flex:0 1 75%;
+}
+.inside-search{
+  text-align:left;
+
+}
+
+  .the-news ul li{
+  flex:0 1 50%;
+  max-width:50%;
+  }
+
+}
+
+/*********-----------desktop----------**********/
+@media (min-width:1000px){
+
+
+
+  .all-content{
+  margin:0 auto;
+  width:100%;
+  max-width:1600px;
+}
+
+
+ .the-header,.the-footer{
+  font-size:8px;
+font-size:.8rem;
+}
+
+  .the-header{
+  height:87vh;
+
+}
+.the-header{
+
+display:flex;
+  display:flexbox;
+  flex-wrap:wrap;
+  align-content:center;
+  justify-content:center;
+  height:85vh;
+  padding:2rem;
+}
+.the-header,
+.all-content{
+  margin-left:0;
+  margin-right:0;
+  }
+
+.logo,
+.searching{
+  width:300px;
+  display:block;
+}
+.logo{
+  margin-bottom:1rem;
+  text-align:center;
+  transition:all .4s .4s ease-out;
+}
+.searching input{
+
+  color:#fff;
+
+  padding-left:2rem;
+  width:100%;
+  font-size:11px;
+  font-size:1.1rem;
+}
+
+.inside-search{
+  display:inline-block;
+  position:relative;
+  text-align:center;
+  margin-bottom:1rem;
+  width:100%;
+}
+.inside-search
+               p{
+  margin-bottom:1rem;
+
+}
+
+.loading{
+  display:none;
+  height:38px;
+  margin:1rem auto;
+  width:38px;
+}
+
+.article{
+  display:block;
+  height:420px;
+  background-position:50%;
+  background-size:cover;
+}
+
+.the-footer{
+  color:#c2c2c2;
+  font-size:9px;
+  font-size:.9rem;
+  height:15vh;
+  text-align:center;
+  padding:0 2rem;
+}
+
+
+.the-header{
+  justify-content:flex-start;
+}
+.logo,
+.searching{
+  max-width:300px;
+}
+.loading{
+  margin-top:1rem;
+}
+
+.the-footer{
+  text-align:left;
+  height:1px;
+}
+ 
+
+.the-news ul li{
+  max-width:25%;
+  
+}
+
+ .copyright
+ span{
+  text-transform:uppercase;
+}
+.logo,
+.searching{
+  display: block;
+  width: 300 px;
+}
+img{height: 25rem;
+width: 25rem
+}
+}
