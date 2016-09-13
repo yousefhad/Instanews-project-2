@@ -1,5 +1,5 @@
 node_modules
 *.DS_Store
-*.scsrc
-*.jshintrc
-*.eslintrc.js
+.scsrc
+.jshintrc
+.eslintrc.js
