@@ -126,7 +126,7 @@
         .the-news .article {
             display: block;
             width: 100%;
-            height: 420px;
+            height: 400px;
             background-position: 50%;
             background-size: cover;
         }
@@ -138,13 +138,6 @@
             width: 38px
         }
 
-        .article {
-            flex-wrap: wrap;
-            display: block;
-            height: 420px;
-            background-position: 50%;
-            background-size: cover;
-        }
 
         .main-article {
             flex: 0 1 50%;
@@ -182,12 +175,16 @@
             font-weight: 700;
             padding: 15px;
             text-align: left;
+            position: absolute;
+            bottom: 0px;
         }
-
+.article-item{
+             position: relative;
+}
         .inside-search p {
 
             margin-bottom: 15px;
-font-family:  sans-serif;
+            font-family:  sans-serif;
             font-size: 0.9rem;
             font-weight:lighter;
         }
@@ -199,19 +196,25 @@ font-family:  sans-serif;
             color: #c2c2c2;
             font-size: .9rem;
             text-align: center;
-            padding: 2rem 3rem;
+            padding: 1rem 3rem;
         }
         .the-right{font-family:  sans-serif;
                     font-size: 0.9rem;
-                    font-weight:lighter;
+                    font-weight:100;
                 }
 
 
         @media(min-width:600px) {
 
+          .the-news ul li {
+              flex: 0 1 50%;
+              max-width: 50%;
+
+          }
+
   /**-------------header----------------**/
 
-.inside-search {
+    .inside-search {
   text-align: left;
 }
 
@@ -245,11 +248,8 @@ font-family:  sans-serif;
                 width: 200px;
                 max-width: 250px;
             }
-            /***--------------the-contents--------------***/
-            .the-news ul li {
-                flex: 0 1 50%;
-                max-width: 50%;
-            }
+          }
+           
 
 
 
@@ -273,7 +273,7 @@ font-family:  sans-serif;
                     max-width: 1600px;
                 }
 
-                }
+
                 .the-header {
                     justify-content: flex-start;
                 }
@@ -311,3 +311,4 @@ font-family:  sans-serif;
                 .the-right span {
                     text-transform: uppercase;
                 }
+}
