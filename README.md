@@ -4,7 +4,7 @@
 
 This project use the New York Times API to fetch latest 12 news article with their images and display them in a grid.
 
-#Technologies Used:
+##Technologies Used:
 ###
 - Ajax
 - Json 
