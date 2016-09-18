@@ -1,4 +1,4 @@
-                                          #Instanews Project
+                                          <h1>Instanews Project</h1>
 
 ##Software:
 
@@ -13,7 +13,7 @@ This project use the New York Times API to fetch latest 12 news article with the
 - jquery.
 <hr>
 
-                                           ## Screen Shot
+                                           <h2>Screen Shot</h2>
 <HR>
 ![Alt text](./images/instanews-desktop-photos.png "Instanews")
 
