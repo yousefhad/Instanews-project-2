@@ -1,12 +1,16 @@
-<h1>Instanews Project</h1>
-<br>
-<h2>Software:</h2>
+#Instanews Project
 
-<h4>This project use the New York Times API to fetch latest 12 news article with their images and display them in a grid.</h4>
+##Software:
 
-<h2>Technologies Used:</h2>
+This project use the New York Times API to fetch latest 12 news article with their images and display them in a grid.
 
-<h3>Ajax, Json, html5, css3 , jquery .</h3>
+#Technologies Used:
+###
+Ajax
+Json 
+html5
+css3 
+jquery
 
 <br>
 
