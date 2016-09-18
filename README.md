@@ -11,8 +11,8 @@ This project use the New York Times API to fetch latest 12 news article with the
 - html5
 - css3 
 - jquery
-<hr>
-  ##Screen Shot
+
+##Screen Shot
 <HR>
 ![Alt text](./images/instanews-desktop-photos.png "Instanews")
 
