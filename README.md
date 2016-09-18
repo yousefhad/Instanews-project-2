@@ -6,11 +6,11 @@ This project use the New York Times API to fetch latest 12 news article with the
 
 #Technologies Used:
 ###
-Ajax
-Json 
-html5
-css3 
-jquery
+- Ajax
+- Json 
+- html5
+- css3 
+- jquery
 
 <br>
 
