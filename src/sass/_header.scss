@@ -1,0 +1,33 @@
+.the-header {
+  justify-content: flex-start;
+}
+.form-content {
+  text-align: left;
+  width: 300px;
+  max-width: 300px;
+}
+.logo {
+  align-self: left;
+  width: 300px;
+  max-width: 300px;
+}
+.loading {
+  display: none;
+  height: 38px;
+  margin: 1rem auto;
+  width: 38px;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+.the-header {
+  height: 90vh;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.form-content {
+  text-align: left;
+  width: 200px;
+  max-width: 250px;
+}
+}
